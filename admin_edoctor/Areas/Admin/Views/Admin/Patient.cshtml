@@ -1,0 +1,158 @@
+﻿@model List<admin_edoctor.Models.Patient>
+@{
+    ViewData["Title"] = "Patient";
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="dash-body">
+    <table border="0" width="100%" style="border-spacing:0; margin:0; padding:0; margin-top:25px;">
+        <tr>
+            <td width="13%">
+                <a href="@Url.Action("Patient")">
+                    <button class="login-btn btn-primary-soft btn btn-icon-back"
+                            style="padding-top:11px; padding-bottom:11px; margin-left:20px; width:125px;">
+                        <font class="tn-in-text">Back</font>
+                    </button>
+                </a>
+            </td>
+
+            <td>
+                <form action="" method="post" class="header-search">
+                    <input type="search" name="search" class="input-text header-searchbar"
+                           placeholder="Search Patient name or Email" list="patient">&nbsp;&nbsp;
+                    <input type="submit" value="Search"
+                           class="login-btn btn-primary btn"
+                           style="padding-left:25px; padding-right:25px; padding-top:10px; padding-bottom:10px;">
+                </form>
+            </td>
+
+            <td width="15%">
+                <p style="font-size:14px; color:rgb(119,119,119); padding:0; margin:0; text-align:right;">
+                    Today's Date
+                </p>
+                <p class="heading-sub12" style="padding:0; margin:0;">
+                    @DateTime.Now.ToString("dd/MM/yyyy")
+                </p>
+            </td>
+
+            <td width="10%">
+                <button class="btn-label" style="display:flex; justify-content:center; align-items:center;">
+                    <img src="~/assets/img/calendar.svg" width="100%">
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4" style="padding-top:10px;">
+                <p class="heading-main12" style="margin-left:45px; font-size:18px; color:rgb(49,49,49)">
+                    All Patients (@(Model?.Count ?? 0))
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <center>
+                    <div class="abc scroll">
+                        <table width="93%" class="styled-table sub-table scrolldown">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Identity Number</th>
+                                    <th>Telephone</th>
+                                    <th>Email</th>
+                                    <th>Date of Birth</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null && Model.Any())
+                                {
+                                    var index = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@index</td>
+                                            <td>@item.FirstName</td>
+                                            <td>@item.LastName</td>
+                                            <td>@item.IdentityNumber</td>
+                                            <td>@item.PhoneNumber</td>
+                                            <td>@item.Email</td>
+                                            <td>@item.Dob?.ToString("dd/MM/yyyy")</td>
+                                        </tr>
+                                        index++;
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="7" class="no-data">No patients found</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </center>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<style>
+    .popup {
+        animation: transitionIn-Y-bottom 0.5s;
+    }
+    .sub-table {
+        animation: transitionIn-Y-bottom 0.5s;
+    }
+    
+    .styled-table {
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 15px;
+        width: 93%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .styled-table thead tr {
+        background-color: #007bff;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #f2f2f2;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #f1f9ff;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f9f9f9;
+    }
+
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #007bff;
+    }
+
+    .no-data {
+        text-align: center;
+        color: #999;
+        padding: 20px 0;
+        font-style: italic;
+    }
+</style>

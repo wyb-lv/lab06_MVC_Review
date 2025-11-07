@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\admin_edoctor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\admin_edoctor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\admin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\font-inter.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-inter.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Black.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Black.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-BlackItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-BlackItalic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Bold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Bold.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-BoldItalic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-ExtraBold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-ExtraBold.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-ExtraBoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-ExtraBoldItalic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-ExtraLight-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-ExtraLight-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-ExtraLightItalic-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-ExtraLightItalic-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Italic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Italic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Light-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Light-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-LightItalic-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-LightItalic-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Medium.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Medium.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-MediumItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-MediumItalic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Regular.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-SemiBold.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-SemiBold.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-SemiBoldItalic.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-SemiBoldItalic.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-Thin-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-Thin-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\fonts\\inter\\Inter-ThinItalic-BETA.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\inter\\Inter-ThinItalic-BETA.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\index.css",
+      "PackagePath": "staticwebassets\\assets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\patient.css",
+      "PackagePath": "staticwebassets\\assets\\css\\patient.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\signup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\signup.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\account-create.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\account-create.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\arrow_forward.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\arrow_forward.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\b3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b3.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\b4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b4.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\b8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b8.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\bg01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg01.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\calendar.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\accountsettings.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\accountsettings.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\add.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\add.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\back-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\back-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\back-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\back-white.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\book-balck.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\book-balck.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\book-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\book-hover.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\book.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\book.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\dashboard-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\dashboard-hover.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\dashboard.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\delete-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\delete-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\delete-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\delete-white.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\doctors-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doctors-hover.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\doctors.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\doctors.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\edit-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\edit-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\edit-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\edit-white.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\filter-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\filter-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\filter-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\filter-white.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\home-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\home-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\home.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\home.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\patients-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\patients-hover.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\patients.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\patients.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\schedule-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\schedule-hover.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\schedule.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\schedule.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\session-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\session-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\session.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\session.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\settings-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\settings-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\settings.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\settings.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\view-iceblue.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\view-iceblue.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\icons\\view-white.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\view-white.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\info.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\info.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\notfound.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\notfound.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\search.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\search.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\user.png",
+      "PackagePath": "staticwebassets\\assets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\view-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\view-gray.svg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\arrival-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\arrival-bg.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\arrival-bg.png",
+      "PackagePath": "staticwebassets\\images\\arrival-bg.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\client.jpg",
+      "PackagePath": "staticwebassets\\images\\client.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p1.png",
+      "PackagePath": "staticwebassets\\images\\p1.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p10.png",
+      "PackagePath": "staticwebassets\\images\\p10.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p11.png",
+      "PackagePath": "staticwebassets\\images\\p11.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p12.png",
+      "PackagePath": "staticwebassets\\images\\p12.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p2.png",
+      "PackagePath": "staticwebassets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p3.png",
+      "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p4.png",
+      "PackagePath": "staticwebassets\\images\\p4.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p5.png",
+      "PackagePath": "staticwebassets\\images\\p5.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p6.png",
+      "PackagePath": "staticwebassets\\images\\p6.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p7.png",
+      "PackagePath": "staticwebassets\\images\\p7.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p8.png",
+      "PackagePath": "staticwebassets\\images\\p8.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p9.png",
+      "PackagePath": "staticwebassets\\images\\p9.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.admin_edoctor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.admin_edoctor.props",
+      "PackagePath": "build\\admin_edoctor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.admin_edoctor.props",
+      "PackagePath": "buildMultiTargeting\\admin_edoctor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.admin_edoctor.props",
+      "PackagePath": "buildTransitive\\admin_edoctor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
