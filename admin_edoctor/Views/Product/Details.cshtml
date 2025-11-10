@@ -1,0 +1,22 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="product_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/assets/@Model.ImageUrl" alt="@Model.ProductName" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+                <h3>@Model.ProductName</h3>
+                <p>@Model.Description</p>
+                <h4>$@Model.Price</h4>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+</section>

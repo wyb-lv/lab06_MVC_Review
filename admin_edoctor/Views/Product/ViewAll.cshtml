@@ -1,0 +1,59 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="inner_page_head">
+<div class="container_fuild">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="full">
+                <h3>Product Grid</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="product_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>Our <span>Products</span></h2>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <div class="option_container">
+                            <div class="options">
+                                <a href="@Url.Action("Details", "Product", new { id = item.ProductId })" class="option1">
+                                    View Detail
+                                </a>
+                                <a href="@Url.Action("Buy", "Product", new { id = item.ProductId })" class="option2">
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="img-box">
+                            <img src="~/assets/@item.ImageUrl" alt="@item.ProductName">
+                        </div>
+
+                        <div class="detail-box">
+                            <h5>@item.ProductName</h5>
+                            <h6>$@item.Price</h6>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="btn-box">
+            <a href="@Url.Action("ViewAll", "Product")">View All Products</a>
+        </div>
+    </div>
+</section>

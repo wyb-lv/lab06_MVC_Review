@@ -64,6 +64,7 @@
                                     <th>Telephone</th>
                                     <th>Email</th>
                                     <th>Date of Birth</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -80,6 +81,9 @@
                                             <td>@item.PhoneNumber</td>
                                             <td>@item.Email</td>
                                             <td>@item.Dob?.ToString("dd/MM/yyyy")</td>
+                                            <td>
+                                                <button type="button" class="Delete"><a href="/Admin/Patient/Delete/@item.Id">Delete</a></button>
+                                            </td>
                                         </tr>
                                         index++;
                                     }

@@ -2,70 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"] - AdminEDoctor</title>
     <link rel="stylesheet" href="~/assets/css/animations.css">
     <link rel="stylesheet" href="~/assets/css/main.css">
     <link rel="stylesheet" href="~/assets/css/admin.css">
     <link rel="stylesheet" href="~/assets/css/font-inter.css">
+    <link rel="stylesheet" href="~/assets/css/responsive.css" />
     
 </head>
 <body>
-    <div class="container">
-        <div class="menu">
-            <table class="menu-container" border="0">
-                <tr>
-                    <td style="padding:10px" colspan="2">
-                        <table border="0" class="profile-container">
-                            <tr>
-                                <td width="30%" style="padding-left:20px" >
-                                    <img src="~/assets/img/user.png" alt="" width="100%" style="border-radius:50%">
-                                </td>
-                                <td style="padding:0px;margin:0px;">
-                                    <p class="profile-title">Administrator</p>
-                                    <p class="profile-subtitle">admin@edoc.com</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
+<div class="container">
+    <div class="menu">
+        <table class="menu-container" border="0">
+            <tr>
+                <td style="padding:10px" colspan="2">
+                    <table border="0" class="profile-container">
+                        <tr>
+                            <td width="30%" style="padding-left:20px" >
+                                <img src="~/assets/img/user.png" alt="" width="100%" style="border-radius:50%">
+                            </td>
+                            <td style="padding:0px;margin:0px;">
+                                <p class="profile-title">Administrator</p>
+                                <p class="profile-subtitle">admin@edoc.com</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
                                 <a href="../login.html" ><input type="button" value="Log out" class="logout-btn btn-primary-soft btn"></a>
-                                </td>
-                            </tr>
+                            </td>
+                        </tr>
                     </table>
-                    </td>
+                </td>
                 
-                </tr>
-                <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-dashbord @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "menu-active menu-icon-dashbord-active" : "")" >
-                        <a href="@Url.Action("Index")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Dashboard</p></div></a>
-                    </td>
-                </tr>
-                <tr class="menu-row">
-                    <td class="menu-btn menu-icon-doctor @(ViewContext.RouteData.Values["action"]?.ToString() == "Doctors" ? "menu-active menu-icon-doctor-active" : "")">
-                        <a href="@Url.Action("Doctors")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Doctors" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Doctors</p></div></a>
-                    </td>
-                </tr>
-                <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-schedule @(ViewContext.RouteData.Values["action"]?.ToString() == "Schedule" ? "menu-active menu-icon-schedule-active" : "")">
-                        <a href="@Url.Action("Schedule")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Schedule" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Schedule</p></div></a>
-                    </td>
-                </tr>
-                <tr class="menu-row">
-                    <td class="menu-btn menu-icon-appoinment @(ViewContext.RouteData.Values["action"]?.ToString() == "Appoinment" ? "menu-active menu-icon-appoinment-active" : "")">
-                        <a href="@Url.Action("Appoinment")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Appoinment" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Appointment</p></div></a>
-                    </td>
-                </tr>
-                <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-patient @(ViewContext.RouteData.Values["action"]?.ToString() == "Patient" ? "menu-active menu-icon-patient-active" : "")">
-                        <a href="@Url.Action("Patient")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Patient" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Patients</p></div></a>
-                    </td>
-                </tr>
+            </tr>
+            <tr class="menu-row" >
+                <td class="menu-btn menu-icon-dashbord @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "menu-active menu-icon-dashbord-active" : "")" >
+                    <a href="@Url.Action("Index")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Dashboard</p></div></a>
+                </td>
+            </tr>
+            <tr class="menu-row">
+                <td class="menu-btn menu-icon-doctor @(ViewContext.RouteData.Values["action"]?.ToString() == "Doctors" ? "menu-active menu-icon-doctor-active" : "")">
+                    <a href="@Url.Action("Doctors")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Doctors" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Doctors</p></div></a>
+                </td>
+            </tr>
+            <tr class="menu-row" >
+                <td class="menu-btn menu-icon-schedule @(ViewContext.RouteData.Values["action"]?.ToString() == "Schedule" ? "menu-active menu-icon-schedule-active" : "")">
+                    <a href="@Url.Action("Schedule")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Schedule" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Schedule</p></div></a>
+                </td>
+            </tr>
+            <tr class="menu-row">
+                <td class="menu-btn menu-icon-appoinment @(ViewContext.RouteData.Values["action"]?.ToString() == "Appoinment" ? "menu-active menu-icon-appoinment-active" : "")">
+                    <a href="@Url.Action("Appoinment")" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Appoinment" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Appointment</p></div></a>
+                </td>
+            </tr>
+            <tr class="menu-row" >
+                <td class="menu-btn menu-icon-patient @(ViewContext.RouteData.Values["action"]?.ToString() == "Patient" ? "menu-active menu-icon-patient-active" : "")">
+                    <a href="@Url.Action("Index", "Patient", new { area = "Admin" })" class="non-style-link-menu @(ViewContext.RouteData.Values["action"]?.ToString() == "Patient" ? "non-style-link-menu-active" : "")"><div><p class="menu-text">Patients</p></div></a>
+                </td>
+            </tr>
 
-            </table>
-        </div>
+        </table>
+    </div>
 
         
-        @RenderBody()
-    </div>
+    @RenderBody()
+</div>
 </body>
 </html>

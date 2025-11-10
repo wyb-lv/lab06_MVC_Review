@@ -19,9 +19,13 @@ public partial class EdoctorContext : DbContext
 
     public virtual DbSet<Appointment> Appointments { get; set; }
 
+    public virtual DbSet<Category> Categories { get; set; }
+
     public virtual DbSet<Doctor> Doctors { get; set; }
 
     public virtual DbSet<Patient> Patients { get; set; }
+
+    public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<Schedule> Schedules { get; set; }
 
@@ -68,6 +72,18 @@ public partial class EdoctorContext : DbContext
             entity.HasOne(d => d.Specialties).WithMany(p => p.Appointments)
                 .HasForeignKey(d => d.SpecialtiesId)
                 .HasConstraintName("FK__Appointme__speci__5AEE82B9");
+        });
+
+        modelBuilder.Entity<Category>(entity =>
+        {
+            entity.HasNoKey();
+
+            entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
+            entity.Property(e => e.CategoryName)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.CreatedAt).HasColumnType("datetime");
+            entity.Property(e => e.Description).HasColumnType("text");
         });
 
         modelBuilder.Entity<Doctor>(entity =>
@@ -133,6 +149,25 @@ public partial class EdoctorContext : DbContext
             entity.Property(e => e.PhoneNumber)
                 .HasMaxLength(15)
                 .HasColumnName("phone_number");
+        });
+
+        modelBuilder.Entity<Product>(entity =>
+        {
+            entity.HasNoKey();
+
+            entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
+            entity.Property(e => e.CreatedAt).HasColumnType("datetime");
+            entity.Property(e => e.Description).HasColumnType("text");
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("ImageURL");
+            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.ProductId).HasColumnName("ProductID");
+            entity.Property(e => e.ProductName)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.UpdatedAt).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<Schedule>(entity =>

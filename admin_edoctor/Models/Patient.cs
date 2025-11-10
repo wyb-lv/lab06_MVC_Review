@@ -24,17 +24,4 @@ public partial class Patient
     public string? PhoneNumber { get; set; }
 
     public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
-
-    public Patient(int id, string? identityNumber, string? email, string? firstName, string? lastName, string? password, string? address, DateOnly? dob, string? phoneNumber)
-    {
-        Id = id;
-        IdentityNumber = identityNumber;
-        Email = email;
-        FirstName = firstName;
-        LastName = lastName;
-        Password = password;
-        Address = address;
-        Dob = dob;
-        PhoneNumber = phoneNumber;
-    }
 }

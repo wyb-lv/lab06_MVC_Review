@@ -105,8 +105,84 @@
       "PackagePath": "staticwebassets\\assets\\css\\patient.css"
     },
     {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
       "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\css\\signup.css",
       "PackagePath": "staticwebassets\\assets\\css\\signup.css"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\arrival-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\arrival-bg.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\arrival-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\arrival-bg.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\client.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\client.jpg"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p1.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p10.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p11.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p12.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p4.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p5.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p6.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p7.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p8.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\p9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\p9.png"
+    },
+    {
+      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-bg.jpg"
     },
     {
       "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\assets\\img\\account-create.svg",
@@ -307,78 +383,6 @@
     {
       "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\arrival-bg.jpg",
-      "PackagePath": "staticwebassets\\images\\arrival-bg.jpg"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\arrival-bg.png",
-      "PackagePath": "staticwebassets\\images\\arrival-bg.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\client.jpg",
-      "PackagePath": "staticwebassets\\images\\client.jpg"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\favicon.png",
-      "PackagePath": "staticwebassets\\images\\favicon.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p1.png",
-      "PackagePath": "staticwebassets\\images\\p1.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p10.png",
-      "PackagePath": "staticwebassets\\images\\p10.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p11.png",
-      "PackagePath": "staticwebassets\\images\\p11.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p12.png",
-      "PackagePath": "staticwebassets\\images\\p12.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p2.png",
-      "PackagePath": "staticwebassets\\images\\p2.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p3.png",
-      "PackagePath": "staticwebassets\\images\\p3.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p4.png",
-      "PackagePath": "staticwebassets\\images\\p4.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p5.png",
-      "PackagePath": "staticwebassets\\images\\p5.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p6.png",
-      "PackagePath": "staticwebassets\\images\\p6.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p7.png",
-      "PackagePath": "staticwebassets\\images\\p7.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p8.png",
-      "PackagePath": "staticwebassets\\images\\p8.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\p9.png",
-      "PackagePath": "staticwebassets\\images\\p9.png"
-    },
-    {
-      "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\images\\slider-bg.jpg",
-      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
     },
     {
       "Id": "C:\\HSU\\Web_Develop\\T7\\Code\\Week7\\admin_edoctor\\admin_edoctor\\wwwroot\\js\\bootstrap.js",

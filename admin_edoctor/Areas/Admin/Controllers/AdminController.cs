@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace admin_edoctor.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class AdminController : Controller
     {
         private EdoctorContext context;
@@ -32,12 +33,6 @@ namespace admin_edoctor.Areas.Admin.Controllers
         public IActionResult Schedule()
         {
             return View();
-        }
-    
-        public IActionResult Patient()
-        {
-            List<Patient> patients = context.Patients.ToList();
-            return View(patients);
         }
     }
 }
